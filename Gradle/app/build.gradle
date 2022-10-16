@@ -23,7 +23,7 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
-    implementation 'com.github.thomas-i-s:lecture-management-system:-SNAPSHOT'
+    implementation 'com.github.thomas-i-s:LectureManagementSystem:-SNAPSHOT'
 }
 
 testing {
@@ -38,5 +38,5 @@ testing {
 
 application {
     // Define the main class for the application.
-    mainClass = 'lecture.management.system.App'
+    mainClass = 'LectureManagementSystem.App'
 }
