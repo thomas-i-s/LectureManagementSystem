@@ -1,2 +1,2 @@
-# lecture-management-system
+# LectureManagementSystem
 Assignment One for Software Engineering
