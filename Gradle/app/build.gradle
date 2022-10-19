@@ -24,6 +24,8 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
     implementation 'com.github.thomas-i-s:LectureManagementSystem:-SNAPSHOT'
+
+    implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.1.RELEASE'
 }
 
 testing {
