@@ -16,13 +16,14 @@ repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 
-    maven { url "https://jitpack.io" }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.0.1-jre'
-    implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.1.RELEASE'
+
+    implementation 'com.github.thomas-i-s:LectureManagementSystem:main-SNAPSHOT'
 }
 
 testing {
